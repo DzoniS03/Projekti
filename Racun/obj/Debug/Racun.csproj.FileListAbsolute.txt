@@ -1,0 +1,10 @@
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\bin\Debug\Racun.exe.config
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\bin\Debug\Racun.exe
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\bin\Debug\Racun.pdb
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.csprojAssemblyReference.cache
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.Form1.resources
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.Properties.Resources.resources
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.csproj.GenerateResource.cache
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.csproj.CoreCompileInputs.cache
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.exe
+D:\Edukacija\Programiranje - Projekti\Racun\Racun\obj\Debug\Racun.pdb
