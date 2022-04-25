@@ -19,7 +19,7 @@ namespace E_Dnevnik
         }
         private void cmb_godina_populate()
         {
-            SqlConnection veza;
+            SqlConnection veza = Konekcija.Connect();
         }
 
         private void Upisnica_Load(object sender, EventArgs e)
