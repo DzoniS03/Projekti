@@ -20,11 +20,18 @@ namespace E_Dnevnik
         private void cmb_godina_populate()
         {
             SqlConnection veza = Konekcija.Connect();
+            SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM skolska_godina", veza);
+            DataTable dt_godina = new DataTable();
+            adapter.Fill(dt_godina);
+            cmb_godina.DataSource = dt_godina;
+            cmb_godina.ValueMember = "id";
+            cmb_godina.DisplayMember = "naziv";
+            cmb_godina.SelectedValue = 2;
         }
 
         private void Upisnica_Load(object sender, EventArgs e)
         {
-
+            cmb_godina_populate();
         }
     }
 }
