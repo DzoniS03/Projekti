@@ -69,5 +69,10 @@ namespace E_Dnevnik
                 }
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
