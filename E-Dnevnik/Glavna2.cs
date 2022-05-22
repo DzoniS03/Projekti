@@ -25,7 +25,8 @@ namespace E_Dnevnik
 
         private void oceneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Ocena frm_ocena = new Ocena();
+            frm_ocena.Show();
         }
 
         private void osobeToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -50,6 +51,22 @@ namespace E_Dnevnik
         {
             Sifarnik frm_predmet = new Sifarnik("Predmet");
             frm_predmet.Show();
+        }
+
+        private void Glavna2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void upisniceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Upisnica frm_upisnica = new Upisnica();
+            frm_upisnica.Show();
+        }
+
+        private void Glavna2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

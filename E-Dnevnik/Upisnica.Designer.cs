@@ -57,6 +57,7 @@
             this.cmb_godina.Name = "cmb_godina";
             this.cmb_godina.Size = new System.Drawing.Size(121, 24);
             this.cmb_godina.TabIndex = 1;
+            this.cmb_godina.SelectedValueChanged += new System.EventHandler(this.cmb_godina_SelectedValueChanged);
             // 
             // cmb_odeljenje
             // 
@@ -65,6 +66,7 @@
             this.cmb_odeljenje.Name = "cmb_odeljenje";
             this.cmb_odeljenje.Size = new System.Drawing.Size(121, 24);
             this.cmb_odeljenje.TabIndex = 2;
+            this.cmb_odeljenje.SelectedValueChanged += new System.EventHandler(this.cmb_odeljenje_SelectedValueChanged);
             // 
             // cmb_ucenik
             // 
@@ -123,6 +125,7 @@
             this.grid_upisnica.RowTemplate.Height = 24;
             this.grid_upisnica.Size = new System.Drawing.Size(515, 301);
             this.grid_upisnica.TabIndex = 8;
+            this.grid_upisnica.CurrentCellChanged += new System.EventHandler(this.grid_upisnica_CurrentCellChanged);
             // 
             // btn_insert
             // 
@@ -133,6 +136,7 @@
             this.btn_insert.TabIndex = 9;
             this.btn_insert.Text = "Dodaj";
             this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // btn_update
             // 
@@ -143,6 +147,7 @@
             this.btn_update.TabIndex = 10;
             this.btn_update.Text = "Izmeni";
             this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_delete
             // 
@@ -153,6 +158,7 @@
             this.btn_delete.TabIndex = 11;
             this.btn_delete.Text = "Brisi";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // Upisnica
             // 
